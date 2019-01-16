@@ -32,12 +32,19 @@ defmodule Mix.Tasks.GenModule do
     end
     """
 
+    if not(File.dir?(proj_path)) do
+      :ok = File.mkdir(proj_path)
+
+      IO.puts("Dir created:")
+      IO.puts("  " <> proj_path)
+    end
+
     :ok = File.write(full_proj_file_path, proj_content)
     :ok = File.write(full_test_file_path, test_content)
 
     IO.puts("Files created:")
-    IO.puts(full_proj_file_path)
-    IO.puts(full_test_file_path)
+    IO.puts("  " <> full_proj_file_path)
+    IO.puts("  " <> full_test_file_path)
 
     # TODO note, there was something about Phoenix may not see the new files. If
     # that happens, use File.touch each of them, I think that fixes
