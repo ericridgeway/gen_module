@@ -16,8 +16,7 @@ Files created:
 - mix version.inc
 - mix archive.build
 - mix archive.build -o gen_module-current.ez
-- \<commit master\>
-- \<push master\>
+- \<commit & push master\>
 
 ## Todo notes
 I think there's a more standard correct way to do the version #s and tags and have an archive directory?
