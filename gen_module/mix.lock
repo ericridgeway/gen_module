@@ -1,4 +1,4 @@
 %{
-  "git_cli": {:hex, :git_cli, "0.2.5", "40673235d088d2784d4e03511e62cac2ef520495cb6cc459f00b4e13aaf0fbf4", [:mix], [], "hexpm"},
-  "version_tasks": {:hex, :version_tasks, "0.11.3", "b44c4d99f6af76f69b45e36fec87646f6036d362c0902d04e035889a5f280241", [:mix], [{:git_cli, "~> 0.2", [hex: :git_cli, repo: "hexpm", optional: false]}], "hexpm"},
+  "git_cli": {:hex, :git_cli, "0.2.5", "40673235d088d2784d4e03511e62cac2ef520495cb6cc459f00b4e13aaf0fbf4", [:mix], [], "hexpm", "a28f672acc536ffe01269dffcde5e94083f6f138491d6287ac2c4e4122ee5f0a"},
+  "version_tasks": {:hex, :version_tasks, "0.11.3", "b44c4d99f6af76f69b45e36fec87646f6036d362c0902d04e035889a5f280241", [:mix], [{:git_cli, "~> 0.2", [hex: :git_cli, repo: "hexpm", optional: false]}], "hexpm", "a877803cba767f551d1034c5a78755342393059ae654fb3d3cda0b39d3a77121"},
 }
