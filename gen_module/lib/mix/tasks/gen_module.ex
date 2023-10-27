@@ -28,7 +28,7 @@ defmodule Mix.Tasks.GenModule do
     defmodule #{app_name_camel}Test.#{new_module_camel} do
       use ExUnit.Case
 
-      alias #{app_name_camel}.{#{new_module_camel}}
+      alias #{app_name_camel}.#{new_module_camel}
     end
     """
 
