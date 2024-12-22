@@ -12,7 +12,8 @@ defmodule Mix.Tasks.GenModule do
     new_module_snake = Macro.underscore(List.first(params))
     new_module_camel = Macro.camelize(List.first(params))
 
-    proj_path = "lib/#{app_name_snake}"
+    # proj_path = "lib/#{app_name_snake}"
+    proj_path = "lib"
     test_path = "test"
 
     full_proj_file_path = "#{proj_path}/#{new_module_snake}.ex"
